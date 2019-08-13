@@ -1,0 +1,76 @@
+package de.xbrowniecodez.ultimatecracker;
+
+import org.objectweb.asm.Label;
+import org.objectweb.asm.Opcodes;
+import org.objectweb.asm.tree.MethodNode;
+
+public class Watermarker implements Opcodes {
+	public static MethodNode makeWatermark() {
+	MethodNode mv = new MethodNode(ACC_PUBLIC + ACC_STATIC, "Infiniteleaks", "()V", null, null);
+	mv.visitCode();
+	Label l0 = new Label();
+	mv.visitLabel(l0);
+	mv.visitLineNumber(6, l0);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 0);
+	Label l1 = new Label();
+	mv.visitLabel(l1);
+	mv.visitLineNumber(7, l1);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 1);
+	Label l2 = new Label();
+	mv.visitLabel(l2);
+	mv.visitLineNumber(8, l2);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 2);
+	Label l3 = new Label();
+	mv.visitLabel(l3);
+	mv.visitLineNumber(9, l3);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 3);
+	Label l4 = new Label();
+	mv.visitLabel(l4);
+	mv.visitLineNumber(10, l4);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 4);
+	Label l5 = new Label();
+	mv.visitLabel(l5);
+	mv.visitLineNumber(11, l5);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 5);
+	Label l6 = new Label();
+	mv.visitLabel(l6);
+	mv.visitLineNumber(12, l6);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 6);
+	Label l7 = new Label();
+	mv.visitLabel(l7);
+	mv.visitLineNumber(13, l7);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 7);
+	Label l8 = new Label();
+	mv.visitLabel(l8);
+	mv.visitLineNumber(14, l8);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 8);
+	Label l9 = new Label();
+	mv.visitLabel(l9);
+	mv.visitLineNumber(15, l9);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 9);
+	Label l10 = new Label();
+	mv.visitLabel(l10);
+	mv.visitLineNumber(16, l10);
+	mv.visitLdcInsn("Cracked using UltimateCracker @UltimateLeaks");
+	mv.visitVarInsn(ASTORE, 10);
+	Label l11 = new Label();
+	mv.visitLabel(l11);
+	mv.visitLineNumber(18, l11);
+	mv.visitInsn(RETURN);
+	Label l12 = new Label();
+	mv.visitLabel(l12);
+	mv.visitMaxs(1, 11);
+	mv.visitEnd();
+	return mv;
+	}
+}
